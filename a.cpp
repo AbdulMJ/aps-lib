@@ -61,25 +61,6 @@ int main() {
 						sum_dp[i][k]=sum_dp[i-1][k-a[i-1]];
 				}
 			}
-
-		// for (int i = 0; i < n+1; i++)
-		// {
-		// 	for (int k = 0; k < p+1; k++)
-		// 	{
-		// 		cout<<xor_dp[i][k]<<" ";
-		// 	}
-		// 	cout<<endl;
-		// }
-		// cout<<"\nSUM:"<<endl;
-        // for (int i = 0; i < n+1; i++)
-		// {
-		// 	for (int k = 0; k < p+1; k++)
-		// 	{
-		// 		cout<<sum_dp[i][k]<<" ";
-		// 	}
-		// 	cout<<endl;
-		// }
-
 		for(int i=0;i<p+1;i++)
 		{
 			// for(int k=0;i)
